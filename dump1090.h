@@ -263,7 +263,7 @@ struct mag_buf {
 };
 
 // Program global state
-struct {                             // Internal state
+extern struct modes {                             // Internal state
     pthread_t       reader_thread;
 
     pthread_mutex_t data_mutex;      // Mutex to synchronize buffer access
