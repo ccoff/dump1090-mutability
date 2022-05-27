@@ -24,7 +24,7 @@ UNAME := $(shell uname)
 
 ifeq ($(UNAME), Linux)
 LIBS+=-lrt
-CFLAGS+=-std=c11 -D_DEFAULT_SOURCE
+CFLAGS+=-std=c11 -D_DEFAULT_SOURCE -DENABLE_WEBSERVER
 endif
 ifeq ($(UNAME), Darwin)
 UNAME_R := $(shell uname -r)
