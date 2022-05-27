@@ -26,17 +26,17 @@ ShowOtherUnits = true;
 // degrees.
 
 // Default center of the map.
-DefaultCenterLat = 45.0;
-DefaultCenterLon = 9.0;
+DefaultCenterLat = 37.0;
+DefaultCenterLon = 10.0;
 // The google maps zoom level, 0 - 16, lower is further out
 DefaultZoomLvl   = 7;
 
 // Center marker. If dump1090 provides a receiver location,
 // that location is used and these settings are ignored.
 
-SiteShow    = false;           // true to show a center marker
-SiteLat     = 45.0;            // position of the marker
-SiteLon     = 9.0;
+SiteShow    = true;           // true to show a center marker
+SiteLat     = 36.85;            // position of the marker
+SiteLon     = 10.32;
 SiteName    = "My Radar Site"; // tooltip of the marker
 
 // -- Marker settings -------------------------------------
@@ -102,7 +102,7 @@ SiteCircles = true; // true to show circles (only shown if the center marker is 
 SiteCirclesDistances = new Array(100,150,200);
 
 // Show the clocks at the top of the righthand pane? You can disable the clocks if you want here
-ShowClocks = true;
+ShowClocks = false;
 
 // Controls page title, righthand pane when nothing is selected
 PageName = "DUMP1090";
