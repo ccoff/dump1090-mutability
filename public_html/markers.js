@@ -65,7 +65,7 @@ var _heavy_svg =
 // NB: scaled so that 1 pixel is about 1.33m (0.75px = 1m)
 var _a320 = {
         key: "a320",
-        scale: 0.60 * 0.75,
+        scale: 0.60 * 0.95,
         size: [64, 64],
         anchor: [32, 28],
         path: "m 32,1 2,1 2,3 0,18 4,1 0,-4 3,0 0,5 17,6 0,3 -15,-2 -9,0 0,12 -2,6 7,3 0,2 -8,-1 -1,2 -1,-2 -8,1 0,-2 7,-3 -2,-6 0,-12 -9,0 -15,2 0,-3 17,-6 0,-5 3,0 0,4 4,-1 0,-18 2,-3 2,-1z"
@@ -134,7 +134,7 @@ var _a380 = {
 
 var _b738 = {
         key: "b738",
-        scale: 0.63 * 0.75,
+        scale: 0.63 * 0.95,
         size: [64, 64],
         anchor: [32, 32],
         path: "m 32,61 -1,-1 -9,2 -2,1 0,-2 9,-6 1,-1 -1,-9 0,-11 -7,0 -1,1 0,-1 -3,1 -1,1 0,-1 -3,1 -9,3 -1,1 0,-2 1,-2 17,-9 1,-1 -1,-2 0,-3 1,-1 2,0 1,1 0,3 3,-2 0,-13 1,-5 1,-3 1,-1 1,1 1,3 1,5 0,13 3,2 0,-3 1,-1 2,0 1,1 0,3 -1,2 1,1 17,9 1,2 0,2 -1,-1 -9,-3 -3,-1 0,1 -1,-1 -3,-1 0,1 -1,-1 -7,0 0,11 -1,9 1,1 9,6 0,2 -2,-1 -9,-2 -1,1 z"
@@ -185,7 +185,7 @@ var TypeIcons = {
 var CategoryIcons = {
         "A1" : {
                 key : "A1",
-                scale : 0.30,
+                scale : 0.50,
                 size : [64, 64],
                 anchor : [32, 25],
                 path : _beechcraft_svg
@@ -193,7 +193,7 @@ var CategoryIcons = {
 
         "A2" : {
                 key : "A2",
-                scale : 0.35,
+                scale : 0.55,
                 size : [64, 64],
                 anchor : [32, 32],
                 path : _generic_plane_svg
@@ -201,7 +201,7 @@ var CategoryIcons = {
 
         "A3" : {
                 key : "A3",
-                scale : 0.40,
+                scale : 0.60,
                 size : [64, 64],
                 anchor : [32, 32],
                 path : _generic_plane_svg
@@ -228,7 +228,7 @@ var CategoryIcons = {
 
 var DefaultIcon = {
         key : "default",
-        scale : 0.4,
+        scale : 0.55,
         size : [64, 64],
         anchor : [32, 32],
         path : _generic_plane_svg
